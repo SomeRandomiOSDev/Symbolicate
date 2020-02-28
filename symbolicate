@@ -1,0 +1,4 @@
+#!/bin/bash
+
+swift build --configuration release
+./.build/release/symbolicate "$@"
