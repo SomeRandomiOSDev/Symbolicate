@@ -9,9 +9,21 @@ Symbolicate
 Installation
 --------
 
-**Symbolicate** is available via Github and resolves its dependencies using the [Swift Package Manager](https://swift.org/package-manager/)
+### Using [Mint](https://github.com/yonaskolb/Mint)
 
-To install, run the following commands:
+```bash
+mint install SomeRandomiOSDev/Symbolicate
+symbolicate <options>
+```
+
+### Using [Swiftbrew](https://github.com/swiftbrew/Swiftbrew)
+
+```bash
+swift brew install SomeRandomiOSDev/Symbolicate
+symbolicate <options>
+```
+
+### Using [Swift Package Manager](https://swift.org/package-manager/)
 
 ```bash
 git clone "https://github.com/SomeRandomiOSDev/Symbolicate.git"
